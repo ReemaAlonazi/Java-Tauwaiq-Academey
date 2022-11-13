@@ -1,0 +1,45 @@
+public class lab1 {
+    public static void main(String [] args){
+        String fullName ="Reema Alonazi";//exercise 1
+        System.out.println(fullName);
+
+
+        int age = 20;//exercise 2
+        System.out.println(age);
+
+
+        int num1;//exercise 3
+        int num2;
+        num1 = 4;
+        num2 = 6;
+        int sum = num1 +num2;
+        System.out.println("The result of sum is: "+sum);
+        int divide = sum/2;
+        System.out.println("The result of divide: "+divide);
+
+
+        int width = 5;//exercise 4
+        int length = 7;
+        int area = width*length;
+        System.out.println("The area of rectangle is: "+area);
+        int perimeter = 2*(width+length);
+        System.out.println("The perimeter of rectangle is: "+perimeter);
+
+
+        boolean isEqual= 23 == 45;//exercise 5
+        System.out.println("Is num1 equal to num2: "+ isEqual);
+
+
+        int a = 55;//exercise 6
+        int b =70;
+        boolean logicalAnd = a<50 && a<b;
+        System.out.println("The result of AND operator: "+logicalAnd);
+
+
+        boolean logicalOr=a<50 || a<b;//exercise 7
+        System.out.println("The result of OR operator: "+logicalOr);
+
+
+    }
+}
+
